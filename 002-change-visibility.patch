@@ -1,0 +1,12 @@
+diff --git cmd/go-bindata/BUILD.bazel cmd/go-bindata/BUILD.bazel
+index e8d1861..0e01e18 100644
+--- cmd/go-bindata/BUILD.bazel
++++ cmd/go-bindata/BUILD.bazel
+@@ -7,7 +7,7 @@ go_library(
+         "main.go",
+     ],
+     importpath = "github.com/shuLhan/go-bindata/cmd/go-bindata",
+-    visibility = ["//visibility:private"],
++    visibility = ["//visibility:public"],
+     deps = ["//:go-bindata"],
+ )

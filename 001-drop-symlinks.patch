@@ -1,0 +1,122 @@
+diff --git testdata/dupname/foo/bar testdata/dupname/foo/bar
+deleted file mode 100644
+index ab2a2d9..0000000
+--- testdata/dupname/foo/bar
++++ /dev/null
+@@ -1 +0,0 @@
+-// sample file
+diff --git testdata/dupname/foo_bar testdata/dupname/foo_bar
+deleted file mode 100644
+index ab2a2d9..0000000
+--- testdata/dupname/foo_bar
++++ /dev/null
+@@ -1 +0,0 @@
+-// sample file
+diff --git testdata/in/a/test.asset testdata/in/a/test.asset
+deleted file mode 100644
+index ab2a2d9..0000000
+--- testdata/in/a/test.asset
++++ /dev/null
+@@ -1 +0,0 @@
+-// sample file
+diff --git testdata/in/b/test.asset testdata/in/b/test.asset
+deleted file mode 100644
+index ab2a2d9..0000000
+--- testdata/in/b/test.asset
++++ /dev/null
+@@ -1 +0,0 @@
+-// sample file
+diff --git testdata/in/c/test.asset testdata/in/c/test.asset
+deleted file mode 100644
+index ab2a2d9..0000000
+--- testdata/in/c/test.asset
++++ /dev/null
+@@ -1 +0,0 @@
+-// sample file
+diff --git testdata/in/file name testdata/in/file name
+deleted file mode 100644
+index 33a94de..0000000
+--- testdata/in/file name	
++++ /dev/null
+@@ -1 +0,0 @@
+-// Content of "testdata/in/file name"
+diff --git testdata/in/split/test.1 testdata/in/split/test.1
+deleted file mode 100644
+index d1752b8..0000000
+--- testdata/in/split/test.1
++++ /dev/null
+@@ -1 +0,0 @@
+-// sample file 1
+diff --git testdata/in/split/test.2 testdata/in/split/test.2
+deleted file mode 100644
+index 734ead0..0000000
+--- testdata/in/split/test.2
++++ /dev/null
+@@ -1 +0,0 @@
+-// sample file 2
+diff --git testdata/in/test.asset testdata/in/test.asset
+deleted file mode 100644
+index ab2a2d9..0000000
+--- testdata/in/test.asset
++++ /dev/null
+@@ -1 +0,0 @@
+-// sample file
+diff --git testdata/symlinkFile/file1 testdata/symlinkFile/file1
+deleted file mode 120000
+index 6e09272..0000000
+--- testdata/symlinkFile/file1
++++ /dev/null
+@@ -1 +0,0 @@
+-../symlinkSrc/file1
+\ No newline at end of file
+diff --git testdata/symlinkParent/symlinkTarget testdata/symlinkParent/symlinkTarget
+deleted file mode 120000
+index ccb1f73..0000000
+--- testdata/symlinkParent/symlinkTarget
++++ /dev/null
+@@ -1 +0,0 @@
+-../symlinkSrc/
+\ No newline at end of file
+diff --git testdata/symlinkRecursiveParent/file1 testdata/symlinkRecursiveParent/file1
+deleted file mode 100644
+index 71385e2..0000000
+--- testdata/symlinkRecursiveParent/file1
++++ /dev/null
+@@ -1 +0,0 @@
+-// symlinkRecursiveParent/file1
+diff --git testdata/symlinkRecursiveParent/symlinkTarget testdata/symlinkRecursiveParent/symlinkTarget
+deleted file mode 120000
+index 2ee9371..0000000
+--- testdata/symlinkRecursiveParent/symlinkTarget
++++ /dev/null
+@@ -1 +0,0 @@
+-../symlinkRecursiveParent/
+\ No newline at end of file
+diff --git testdata/symlinkSrc/file1 testdata/symlinkSrc/file1
+deleted file mode 100644
+index 5161fce..0000000
+--- testdata/symlinkSrc/file1
++++ /dev/null
+@@ -1 +0,0 @@
+-// symlink file 1
+diff --git testdata/symlinkSrc/file2 testdata/symlinkSrc/file2
+deleted file mode 100644
+index dfa589a..0000000
+--- testdata/symlinkSrc/file2
++++ /dev/null
+@@ -1 +0,0 @@
+-// symlink file 2
+diff --git testdata/symlinkSrc/file3 testdata/symlinkSrc/file3
+deleted file mode 100644
+index 9096fe8..0000000
+--- testdata/symlinkSrc/file3
++++ /dev/null
+@@ -1 +0,0 @@
+-// symlink file 3
+diff --git testdata/symlinkSrc/file4 testdata/symlinkSrc/file4
+deleted file mode 100644
+index 49e0302..0000000
+--- testdata/symlinkSrc/file4
++++ /dev/null
+@@ -1 +0,0 @@
+-// symlink file 4
